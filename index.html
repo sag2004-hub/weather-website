@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER WEBSITE</title>
+    <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/weather-ios-logo-png-transparent.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="Enter Your City Name...." id="cityinput">
+                <input type="submit" value="Submit" id="submitBtn"> <!-- Corrected: Changed the ID to submitBtn -->
+                <button placeholder="Submit" id="add"></button>
+            </section>
+            <section class="display">
+                <div class="wrapper">
+                    <h2 id="cityouput"></h2> <!-- Corrected: Changed to cityouput -->
+                    <p id="description"></p>
+                    <p id="temp"></p>
+                    <p id="wind"></p>
+                </div>
+            </section>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
